@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family:Montserrat, monospace;
+}
+.flex{
+	display:flex;
+	margin:0 auto;
+	justify-content:center;
+}
+.flex-vertical{
+	display:block;
+	flex-direction: column;
+	position:relative;
+}
+.menu{
+	min-height:50px;
+	background:rgb(13, 13, 13);
+}
+.burger{
+	height:80%;
+	width:50px;
+	display:none;
+	position:relative;
+	top:0;
+	margin:0 auto 0 5px;
+	border-radius:5px;
+	border:2px solid white;
+	transition:transform .3s;
+}
+.burger:hover{
+	cursor: pointer
+}
+.burger:active{
+	transform:scale(1.1,1.2);
+}
+.fas{
+	color:white;
+	font-size:29px;
+	margin:4px 9px;
+}
+.fa-times{
+	margin:4px 11px;
+}
