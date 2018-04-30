@@ -78,3 +78,14 @@ a:visited{
 .active{
 	background:rgb(140, 140, 140);
 }
+@media only screen and (max-width:769px){
+	.flex{
+		display:none;
+	}
+	.burger{
+		display:block;
+	}
+	.menu{
+		padding:4px 0;
+	}
+}
